@@ -1,0 +1,46 @@
+
+
+ /* @media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  } */
+  *{
+    box-sizing: border-box;
+  }
+  body{
+    width: 100%;
+    position: relative;
+  }
+  
+  .div {
+    color: rgb(54, 117, 119);
+    display: flex;
+    justify-content:center;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    width: 60%;
+    margin: 1em auto 2em;
+    margin-top: 30px;
+  }
+ span{
+font-weight: bold;
+font-size: 20px;
+color: rgb(54, 117, 119);
+ }
+ 
+
+ .submit{
+  background-color: rgb(54, 117, 119);
+  width: 80px;
+  padding: 7px;
+  border-radius: 3px;
+  margin: 1em auto 2em;
+  color: black;
+
+}
