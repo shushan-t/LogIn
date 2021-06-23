@@ -6,7 +6,7 @@ import "../Styles/login.css";
 class Main extends Component {
   state = {
     bool: false,
-    bool1: false,
+    bool1: true,
     
   };
 
@@ -75,7 +75,7 @@ class Main extends Component {
     </div>
   </div>
   <div className="submit"  onClick={this.changeState1}>Register
-  {this.state.bool1 === false ?
+  {!this.state.bool1 ?
             alert("Welcome"): null}
   </div>
   <div class="ui error message"></div>
@@ -101,7 +101,7 @@ class Main extends Component {
     </div>
   </div>
   <div className="submit"  onClick={this.changeState1}>Log In
-  {this.state.bool1 === true ?
+  {this.state.bool1 ?
             alert("Welcome"): null}
   </div>
   <div class="ui error message"></div>
